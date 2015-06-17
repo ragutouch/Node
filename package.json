@@ -1,0 +1,13 @@
+{
+  "name" : "raghu",
+  "version" : "0.0.1",
+   "private": true,
+   "dependencies": {
+       "express": "*",
+       "dustjs-linkedin" : "*",
+       "dustjs-helpers" : "*",
+       "q" : "*",
+       "mysql": "*",
+       "consolidate" : "*"
+   }
+}

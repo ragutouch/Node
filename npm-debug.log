@@ -1,0 +1,688 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@2.9.1
+3 info using node@v0.12.3
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose readDependencies loading dependencies from D:\RAGU\GitHub\Node\package.json
+6 verbose install where, deps [ 'D:\\RAGU\\GitHub\\Node',
+6 verbose install   [ 'express',
+6 verbose install     'dustjs-linkedin',
+6 verbose install     'dustjs-helpers',
+6 verbose install     'q',
+6 verbose install     'mysql',
+6 verbose install     'consolidate' ] ]
+7 verbose install where, peers [ 'D:\\RAGU\\GitHub\\Node', [] ]
+8 verbose installManyTop reading for lifecycle D:\RAGU\GitHub\Node\package.json
+9 info preinstall raghu@0.0.1
+10 verbose installManyTop reading scoped package data from D:\RAGU\GitHub\Node\node_modules\dustjs-helpers\package.json
+11 verbose installManyTop reading scoped package data from D:\RAGU\GitHub\Node\node_modules\dustjs-linkedin\package.json
+12 verbose installManyTop reading scoped package data from D:\RAGU\GitHub\Node\node_modules\express\package.json
+13 verbose installManyTop reading scoped package data from D:\RAGU\GitHub\Node\node_modules\mysql\package.json
+14 verbose installManyTop reading scoped package data from D:\RAGU\GitHub\Node\node_modules\q\package.json
+15 warn package.json dustjs-helpers@1.7.1 No README data
+16 verbose readDependencies loading dependencies from D:\RAGU\GitHub\Node\package.json
+17 verbose targetResolver reading package data from D:\RAGU\GitHub\Node\node_modules\dustjs-helpers\package.json
+18 verbose targetResolver reading package data from D:\RAGU\GitHub\Node\node_modules\dustjs-linkedin\package.json
+19 verbose targetResolver reading package data from D:\RAGU\GitHub\Node\node_modules\express\package.json
+20 verbose targetResolver reading package data from D:\RAGU\GitHub\Node\node_modules\mysql\package.json
+21 verbose targetResolver reading package data from D:\RAGU\GitHub\Node\node_modules\q\package.json
+22 verbose targetResolver reading package data from D:\RAGU\GitHub\Node\node_modules\.bin\dustc\package.json
+23 verbose targetResolver reading package data from D:\RAGU\GitHub\Node\node_modules\.bin\dustc.cmd\package.json
+24 verbose targetResolver reading package data from D:\RAGU\GitHub\Node\node_modules\.bin\express\package.json
+25 verbose targetResolver reading package data from D:\RAGU\GitHub\Node\node_modules\.bin\express.cmd\package.json
+26 verbose already installed skipping dustjs-linkedin@* D:\RAGU\GitHub\Node
+27 verbose already installed skipping dustjs-helpers@* D:\RAGU\GitHub\Node
+28 verbose already installed skipping q@* D:\RAGU\GitHub\Node
+29 verbose already installed skipping mysql@* D:\RAGU\GitHub\Node
+30 silly cache add args [ 'consolidate@*', null ]
+31 verbose cache add spec consolidate@*
+32 silly cache add parsed spec { raw: 'consolidate@*',
+32 silly cache add   scope: null,
+32 silly cache add   name: 'consolidate',
+32 silly cache add   rawSpec: '*',
+32 silly cache add   spec: '*',
+32 silly cache add   type: 'range' }
+33 silly addNamed consolidate@*
+34 verbose addNamed "*" is a valid semver range for consolidate
+35 silly addNameRange { name: 'consolidate', range: '*', hasData: false }
+36 silly mapToRegistry name consolidate
+37 silly mapToRegistry using default registry
+38 silly mapToRegistry registry https://registry.npmjs.org/
+39 silly mapToRegistry uri https://registry.npmjs.org/consolidate
+40 verbose addNameRange registry:https://registry.npmjs.org/consolidate not in flight; fetching
+41 verbose already installed skipping express@* D:\RAGU\GitHub\Node
+42 verbose request uri https://registry.npmjs.org/consolidate
+43 verbose request no auth needed
+44 info attempt registry request try #1 at 8:38:06 PM
+45 verbose request id 6dfa1a586a45dc6d
+46 http request GET https://registry.npmjs.org/consolidate
+47 http 200 https://registry.npmjs.org/consolidate
+48 silly get cb [ 200,
+48 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+48 silly get     etag: '"DV713CJYLKIRZLLJLOA0S1GWU"',
+48 silly get     'content-type': 'application/json',
+48 silly get     'cache-control': 'max-age=60',
+48 silly get     'content-length': '31931',
+48 silly get     'accept-ranges': 'bytes',
+48 silly get     date: 'Wed, 17 Jun 2015 15:08:03 GMT',
+48 silly get     via: '1.1 varnish',
+48 silly get     age: '0',
+48 silly get     connection: 'keep-alive',
+48 silly get     'x-served-by': 'cache-sin6924-SIN',
+48 silly get     'x-cache': 'HIT',
+48 silly get     'x-cache-hits': '1',
+48 silly get     'x-timer': 'S1434553682.871331,VS0,VE221',
+48 silly get     vary: 'Accept' } ]
+49 verbose get saving consolidate to C:\Users\ITLUSER\AppData\Roaming\npm-cache\registry.npmjs.org\consolidate\.cache.json
+50 silly addNameRange number 2 { name: 'consolidate', range: '*', hasData: true }
+51 silly addNameRange versions [ 'consolidate',
+51 silly addNameRange   [ '0.0.1',
+51 silly addNameRange     '0.1.0',
+51 silly addNameRange     '0.2.0',
+51 silly addNameRange     '0.3.0',
+51 silly addNameRange     '0.3.1',
+51 silly addNameRange     '0.4.0',
+51 silly addNameRange     '0.5.0',
+51 silly addNameRange     '0.6.0',
+51 silly addNameRange     '0.7.0',
+51 silly addNameRange     '0.8.0',
+51 silly addNameRange     '0.9.0',
+51 silly addNameRange     '0.9.1',
+51 silly addNameRange     '0.10.0',
+51 silly addNameRange     '0.11.0',
+51 silly addNameRange     '0.12.0',
+51 silly addNameRange     '0.12.1',
+51 silly addNameRange     '0.13.0',
+51 silly addNameRange     '0.13.1' ] ]
+52 silly addNamed consolidate@0.13.1
+53 verbose addNamed "0.13.1" is a plain semver version for consolidate
+54 silly mapToRegistry name consolidate
+55 silly mapToRegistry using default registry
+56 silly mapToRegistry registry https://registry.npmjs.org/
+57 silly mapToRegistry uri https://registry.npmjs.org/consolidate
+58 verbose addRemoteTarball https://registry.npmjs.org/consolidate/-/consolidate-0.13.1.tgz not in flight; adding
+59 verbose addRemoteTarball [ 'https://registry.npmjs.org/consolidate/-/consolidate-0.13.1.tgz',
+59 verbose addRemoteTarball   '9e9503568eb4850889da6ed87a852c8dd2d13f64' ]
+60 info retry fetch attempt 1 at 8:38:06 PM
+61 info attempt registry request try #1 at 8:38:06 PM
+62 http fetch GET https://registry.npmjs.org/consolidate/-/consolidate-0.13.1.tgz
+63 http fetch 200 https://registry.npmjs.org/consolidate/-/consolidate-0.13.1.tgz
+64 silly fetchAndShaCheck shasum 9e9503568eb4850889da6ed87a852c8dd2d13f64
+65 verbose addTmpTarball C:\Users\ITLUSER\AppData\Local\Temp\npm-6720-d7ee5a58\registry.npmjs.org\consolidate\-\consolidate-0.13.1.tgz not in flight; adding
+66 verbose addTmpTarball already have metadata; skipping unpack for consolidate@0.13.1
+67 silly cache afterAdd consolidate@0.13.1
+68 verbose afterAdd C:\Users\ITLUSER\AppData\Roaming\npm-cache\consolidate\0.13.1\package\package.json not in flight; writing
+69 verbose afterAdd C:\Users\ITLUSER\AppData\Roaming\npm-cache\consolidate\0.13.1\package\package.json written
+70 silly install resolved [ { name: 'consolidate',
+70 silly install resolved     version: '0.13.1',
+70 silly install resolved     description: 'Template engine consolidation library',
+70 silly install resolved     keywords: [ 'template', 'engine', 'view' ],
+70 silly install resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+70 silly install resolved     devDependencies:
+70 silly install resolved      { atpl: '>=0.7.6',
+70 silly install resolved        dot: '1.0.1',
+70 silly install resolved        dust: '0.3.0',
+70 silly install resolved        'dustjs-helpers': '1.1.1',
+70 silly install resolved        'dustjs-linkedin': '1.2',
+70 silly install resolved        eco: '1.1.0-rc-3',
+70 silly install resolved        ect: '0.3.5',
+70 silly install resolved        ejs: '0.7.1',
+70 silly install resolved        'haml-coffee': '1.4.0',
+70 silly install resolved        hamlet: '0.3.3',
+70 silly install resolved        hamljs: '0.6.1',
+70 silly install resolved        handlebars: '1.0.7',
+70 silly install resolved        'hogan.js': '2.0.0',
+70 silly install resolved        htmling: '0.0.3',
+70 silly install resolved        jade: '1.9.1',
+70 silly install resolved        jazz: '0.0.18',
+70 silly install resolved        jqtpl: '1.1.0',
+70 silly install resolved        just: '0.1.8',
+70 silly install resolved        liquor: '0.0.4',
+70 silly install resolved        lodash: '1.2.0',
+70 silly install resolved        mocha: '*',
+70 silly install resolved        mote: '0.2.0',
+70 silly install resolved        mustache: '0.4.0',
+70 silly install resolved        nunjucks: '~1.0.0',
+70 silly install resolved        qejs: '3.0.5',
+70 silly install resolved        ractive: '^0.6.1',
+70 silly install resolved        react: '^0.13.0',
+70 silly install resolved        'react-tools': '^0.13.0',
+70 silly install resolved        should: '*',
+70 silly install resolved        swig: '1.4.1',
+70 silly install resolved        templayed: '>=0.2.3',
+70 silly install resolved        tinyliquid: '~0.2.22',
+70 silly install resolved        toffee: '0.0.52',
+70 silly install resolved        underscore: '1.3.3',
+70 silly install resolved        walrus: '0.9.0',
+70 silly install resolved        whiskers: '0.2.2' },
+70 silly install resolved     main: 'index',
+70 silly install resolved     repository:
+70 silly install resolved      { type: 'git',
+70 silly install resolved        url: 'https://github.com/visionmedia/consolidate.js.git' },
+70 silly install resolved     license: 'MIT',
+70 silly install resolved     scripts: { test: 'mocha' },
+70 silly install resolved     dependencies: { bluebird: '^2.9.26' },
+70 silly install resolved     gitHead: 'ab0cbe591f4747c1cfa687c1601d03ffd607c94a',
+70 silly install resolved     bugs: { url: 'https://github.com/visionmedia/consolidate.js/issues' },
+70 silly install resolved     homepage: 'https://github.com/visionmedia/consolidate.js',
+70 silly install resolved     _id: 'consolidate@0.13.1',
+70 silly install resolved     _shasum: '9e9503568eb4850889da6ed87a852c8dd2d13f64',
+70 silly install resolved     _from: 'consolidate@*',
+70 silly install resolved     _npmVersion: '2.5.1',
+70 silly install resolved     _nodeVersion: '0.12.0',
+70 silly install resolved     _npmUser: { name: 'doowb', email: 'brian.woodward@gmail.com' },
+70 silly install resolved     dist:
+70 silly install resolved      { shasum: '9e9503568eb4850889da6ed87a852c8dd2d13f64',
+70 silly install resolved        tarball: 'http://registry.npmjs.org/consolidate/-/consolidate-0.13.1.tgz' },
+70 silly install resolved     maintainers: [ [Object], [Object] ],
+70 silly install resolved     directories: {},
+70 silly install resolved     _resolved: 'https://registry.npmjs.org/consolidate/-/consolidate-0.13.1.tgz' } ]
+71 info install consolidate@0.13.1 into D:\RAGU\GitHub\Node
+72 info installOne consolidate@0.13.1
+73 verbose installOne of consolidate to D:\RAGU\GitHub\Node not in flight; installing
+74 verbose lock using C:\Users\ITLUSER\AppData\Roaming\npm-cache\_locks\consolidate-5501ca7741e3b645.lock for D:\RAGU\GitHub\Node\node_modules\consolidate
+75 silly install write writing consolidate 0.13.1 to D:\RAGU\GitHub\Node\node_modules\consolidate
+76 verbose unbuild node_modules\consolidate
+77 silly gentlyRm D:\RAGU\GitHub\Node\node_modules\consolidate is being purged from base D:\RAGU\GitHub\Node
+78 verbose gentlyRm don't care about contents; nuking D:\RAGU\GitHub\Node\node_modules\consolidate
+79 verbose tar unpack C:\Users\ITLUSER\AppData\Roaming\npm-cache\consolidate\0.13.1\package.tgz
+80 verbose tar unpacking to D:\RAGU\GitHub\Node\node_modules\consolidate
+81 silly gentlyRm D:\RAGU\GitHub\Node\node_modules\consolidate is being purged
+82 verbose gentlyRm don't care about contents; nuking D:\RAGU\GitHub\Node\node_modules\consolidate
+83 silly gunzTarPerm modes [ '777', '666' ]
+84 silly gunzTarPerm extractEntry package.json
+85 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+86 silly gunzTarPerm extractEntry .npmignore
+87 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+88 silly gunzTarPerm extractEntry index.js
+89 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+90 silly gunzTarPerm extractEntry Readme.md
+91 silly gunzTarPerm modified mode [ 'Readme.md', 420, 438 ]
+92 silly gunzTarPerm extractEntry History.md
+93 silly gunzTarPerm modified mode [ 'History.md', 420, 438 ]
+94 silly gunzTarPerm extractEntry Makefile
+95 silly gunzTarPerm modified mode [ 'Makefile', 420, 438 ]
+96 silly gunzTarPerm extractEntry lib/consolidate.js
+97 silly gunzTarPerm modified mode [ 'lib/consolidate.js', 420, 438 ]
+98 silly gunzTarPerm extractEntry .travis.yml
+99 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
+100 verbose write writing to D:\RAGU\GitHub\Node\node_modules\consolidate\package.json
+101 info preinstall consolidate@0.13.1
+102 verbose readDependencies loading dependencies from D:\RAGU\GitHub\Node\node_modules\consolidate\package.json
+103 silly prepareForInstallMany adding bluebird@^2.9.26 from consolidate dependencies
+104 verbose readDependencies loading dependencies from D:\RAGU\GitHub\Node\node_modules\consolidate\package.json
+105 silly cache add args [ 'bluebird@^2.9.26', null ]
+106 verbose cache add spec bluebird@^2.9.26
+107 silly cache add parsed spec { raw: 'bluebird@^2.9.26',
+107 silly cache add   scope: null,
+107 silly cache add   name: 'bluebird',
+107 silly cache add   rawSpec: '^2.9.26',
+107 silly cache add   spec: '>=2.9.26 <3.0.0',
+107 silly cache add   type: 'range' }
+108 silly addNamed bluebird@>=2.9.26 <3.0.0
+109 verbose addNamed ">=2.9.26 <3.0.0" is a valid semver range for bluebird
+110 silly addNameRange { name: 'bluebird', range: '>=2.9.26 <3.0.0', hasData: false }
+111 silly mapToRegistry name bluebird
+112 silly mapToRegistry using default registry
+113 silly mapToRegistry registry https://registry.npmjs.org/
+114 silly mapToRegistry uri https://registry.npmjs.org/bluebird
+115 verbose addNameRange registry:https://registry.npmjs.org/bluebird not in flight; fetching
+116 verbose request uri https://registry.npmjs.org/bluebird
+117 verbose request no auth needed
+118 info attempt registry request try #1 at 8:38:07 PM
+119 http request GET https://registry.npmjs.org/bluebird
+120 http 200 https://registry.npmjs.org/bluebird
+121 silly get cb [ 200,
+121 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+121 silly get     etag: '"1K6CVEWL7I1IWDB3UT6TKPFIP"',
+121 silly get     'content-type': 'application/json',
+121 silly get     'cache-control': 'max-age=60',
+121 silly get     'content-length': '328928',
+121 silly get     'accept-ranges': 'bytes',
+121 silly get     date: 'Wed, 17 Jun 2015 15:08:03 GMT',
+121 silly get     via: '1.1 varnish',
+121 silly get     age: '16',
+121 silly get     connection: 'keep-alive',
+121 silly get     'x-served-by': 'cache-sin6920-SIN',
+121 silly get     'x-cache': 'HIT',
+121 silly get     'x-cache-hits': '2',
+121 silly get     'x-timer': 'S1434553683.908178,VS0,VE0',
+121 silly get     vary: 'Accept' } ]
+122 verbose get saving bluebird to C:\Users\ITLUSER\AppData\Roaming\npm-cache\registry.npmjs.org\bluebird\.cache.json
+123 silly addNameRange number 2 { name: 'bluebird', range: '>=2.9.26 <3.0.0', hasData: true }
+124 silly addNameRange versions [ 'bluebird',
+124 silly addNameRange   [ '0.7.1-1',
+124 silly addNameRange     '0.7.1-2',
+124 silly addNameRange     '0.7.1-3',
+124 silly addNameRange     '0.7.1-4',
+124 silly addNameRange     '0.7.1-5',
+124 silly addNameRange     '0.7.2-0',
+124 silly addNameRange     '0.7.3-0',
+124 silly addNameRange     '0.7.4-0',
+124 silly addNameRange     '0.7.4-1',
+124 silly addNameRange     '0.7.5-0',
+124 silly addNameRange     '0.7.6-0',
+124 silly addNameRange     '0.7.7-0',
+124 silly addNameRange     '0.7.7-1',
+124 silly addNameRange     '0.7.8-0',
+124 silly addNameRange     '0.7.8-1',
+124 silly addNameRange     '0.7.9-0',
+124 silly addNameRange     '0.7.9-1',
+124 silly addNameRange     '0.7.10-0',
+124 silly addNameRange     '0.7.10-1',
+124 silly addNameRange     '0.7.11-0',
+124 silly addNameRange     '0.7.12-0',
+124 silly addNameRange     '0.7.12-1',
+124 silly addNameRange     '0.7.12-2',
+124 silly addNameRange     '0.8.0-0',
+124 silly addNameRange     '0.8.0-1',
+124 silly addNameRange     '0.8.0-2',
+124 silly addNameRange     '0.8.0-3',
+124 silly addNameRange     '0.8.1-0',
+124 silly addNameRange     '0.8.2-0',
+124 silly addNameRange     '0.8.2-1',
+124 silly addNameRange     '0.8.2-2',
+124 silly addNameRange     '0.8.3-0',
+124 silly addNameRange     '0.8.3-1',
+124 silly addNameRange     '0.8.3-2',
+124 silly addNameRange     '0.8.3-3',
+124 silly addNameRange     '0.8.4-0',
+124 silly addNameRange     '0.8.4-1',
+124 silly addNameRange     '0.8.5-0',
+124 silly addNameRange     '0.8.5-1',
+124 silly addNameRange     '0.9.0-0',
+124 silly addNameRange     '0.9.1-0',
+124 silly addNameRange     '0.9.1-1',
+124 silly addNameRange     '0.9.2-0',
+124 silly addNameRange     '0.9.2-1',
+124 silly addNameRange     '0.9.3-0',
+124 silly addNameRange     '0.9.4-0',
+124 silly addNameRange     '0.9.4-1',
+124 silly addNameRange     '0.9.5-0',
+124 silly addNameRange     '0.9.6-0',
+124 silly addNameRange     '0.9.7-0',
+124 silly addNameRange     '0.9.8-0',
+124 silly addNameRange     '0.9.9-0',
+124 silly addNameRange     '0.9.10-0',
+124 silly addNameRange     '0.9.10-1',
+124 silly addNameRange     '0.9.11-0',
+124 silly addNameRange     '0.9.11-1',
+124 silly addNameRange     '0.10.0-0',
+124 silly addNameRange     '0.10.0-1',
+124 silly addNameRange     '0.10.1-0',
+124 silly addNameRange     '0.10.2-0',
+124 silly addNameRange     '0.10.2-1',
+124 silly addNameRange     '0.10.3-0',
+124 silly addNameRange     '0.10.4-0',
+124 silly addNameRange     '0.10.4-1',
+124 silly addNameRange     '0.10.5-0',
+124 silly addNameRange     '0.10.6-0',
+124 silly addNameRange     '0.10.7-0',
+124 silly addNameRange     '0.10.8-0',
+124 silly addNameRange     '0.10.9-0',
+124 silly addNameRange     '0.10.9-1',
+124 silly addNameRange     '0.10.10-0',
+124 silly addNameRange     '0.10.11-0',
+124 silly addNameRange     '0.10.11-1',
+124 silly addNameRange     '0.10.11-2',
+124 silly addNameRange     '0.10.11-4',
+124 silly addNameRange     '0.10.12-0',
+124 silly addNameRange     '0.10.13-0',
+124 silly addNameRange     '0.10.13-1',
+124 silly addNameRange     '0.10.14-0',
+124 silly addNameRange     '0.11.0-0',
+124 silly addNameRange     '0.11.1-0',
+124 silly addNameRange     '0.11.2-0',
+124 silly addNameRange     '0.11.3-0',
+124 silly addNameRange     '0.11.4-0',
+124 silly addNameRange     '0.11.4-1',
+124 silly addNameRange     '0.11.5-0',
+124 silly addNameRange     '0.11.5-1',
+124 silly addNameRange     '0.11.6-0',
+124 silly addNameRange     '1.0.0',
+124 silly addNameRange     '1.0.1',
+124 silly addNameRange     '1.0.2',
+124 silly addNameRange     '1.0.3',
+124 silly addNameRange     '1.0.4',
+124 silly addNameRange     '1.0.5',
+124 silly addNameRange     '1.0.7',
+124 silly addNameRange     '1.0.8',
+124 silly addNameRange     '1.1.0',
+124 silly addNameRange     '1.1.1',
+124 silly addNameRange     '1.2.0',
+124 silly addNameRange     '1.2.1',
+124 silly addNameRange     '1.2.2',
+124 silly addNameRange     '1.2.3',
+124 silly addNameRange     '1.2.4',
+124 silly addNameRange     '2.0.2',
+124 silly addNameRange     '2.0.3',
+124 silly addNameRange     '2.0.4',
+124 silly addNameRange     '2.0.5',
+124 silly addNameRange     '2.0.6',
+124 silly addNameRange     '2.0.7',
+124 silly addNameRange     '2.1.1',
+124 silly addNameRange     '2.1.2',
+124 silly addNameRange     '2.1.3',
+124 silly addNameRange     '2.2.0',
+124 silly addNameRange     '2.2.1',
+124 silly addNameRange     '2.2.2',
+124 silly addNameRange     '2.3.0',
+124 silly addNameRange     '2.3.1',
+124 silly addNameRange     '2.3.2',
+124 silly addNameRange     '2.3.3',
+124 silly addNameRange     '2.3.4',
+124 silly addNameRange     '2.3.5',
+124 silly addNameRange     '0.11.6',
+124 silly addNameRange     '2.3.6',
+124 silly addNameRange     '2.3.9',
+124 silly addNameRange     '2.3.10',
+124 silly addNameRange     '2.3.11',
+124 silly addNameRange     '2.4.0',
+124 silly addNameRange     '2.4.1',
+124 silly addNameRange     '2.4.2',
+124 silly addNameRange     '2.4.3',
+124 silly addNameRange     '2.5.0',
+124 silly addNameRange     '2.5.1',
+124 silly addNameRange     '2.5.2',
+124 silly addNameRange     '2.5.3',
+124 silly addNameRange     '2.6.0',
+124 silly addNameRange     '2.6.1',
+124 silly addNameRange     '2.6.2',
+124 silly addNameRange     '2.6.3',
+124 silly addNameRange     '2.6.4',
+124 silly addNameRange     '2.7.0',
+124 silly addNameRange     '2.7.1',
+124 silly addNameRange     '2.8.0',
+124 silly addNameRange     '2.8.1',
+124 silly addNameRange     '2.8.2',
+124 silly addNameRange     '2.9.0',
+124 silly addNameRange     '2.9.1',
+124 silly addNameRange     '2.9.2',
+124 silly addNameRange     '2.9.3',
+124 silly addNameRange     '2.9.4',
+124 silly addNameRange     '2.9.5',
+124 silly addNameRange     '2.9.6',
+124 silly addNameRange     '2.9.7',
+124 silly addNameRange     '2.9.8',
+124 silly addNameRange     '2.9.9',
+124 silly addNameRange     '2.9.10',
+124 silly addNameRange     '2.9.11',
+124 silly addNameRange     '2.9.12',
+124 silly addNameRange     '2.9.13',
+124 silly addNameRange     '2.9.14',
+124 silly addNameRange     '2.9.15',
+124 silly addNameRange     '2.9.16',
+124 silly addNameRange     '2.9.17',
+124 silly addNameRange     '2.9.18',
+124 silly addNameRange     '2.9.19',
+124 silly addNameRange     '2.9.20',
+124 silly addNameRange     '2.9.21',
+124 silly addNameRange     '2.9.22',
+124 silly addNameRange     '2.9.23',
+124 silly addNameRange     '2.9.24',
+124 silly addNameRange     '2.9.25',
+124 silly addNameRange     '2.9.26',
+124 silly addNameRange     '2.9.27',
+124 silly addNameRange     '2.9.28',
+124 silly addNameRange     '2.9.29',
+124 silly addNameRange     '2.9.30' ] ]
+125 silly addNamed bluebird@2.9.30
+126 verbose addNamed "2.9.30" is a plain semver version for bluebird
+127 silly mapToRegistry name bluebird
+128 silly mapToRegistry using default registry
+129 silly mapToRegistry registry https://registry.npmjs.org/
+130 silly mapToRegistry uri https://registry.npmjs.org/bluebird
+131 verbose addRemoteTarball https://registry.npmjs.org/bluebird/-/bluebird-2.9.30.tgz not in flight; adding
+132 verbose addRemoteTarball [ 'https://registry.npmjs.org/bluebird/-/bluebird-2.9.30.tgz',
+132 verbose addRemoteTarball   'edda875ec9aad1f29cf1f56d6e82fbab2b0df556' ]
+133 info retry fetch attempt 1 at 8:38:07 PM
+134 info attempt registry request try #1 at 8:38:07 PM
+135 http fetch GET https://registry.npmjs.org/bluebird/-/bluebird-2.9.30.tgz
+136 http fetch 200 https://registry.npmjs.org/bluebird/-/bluebird-2.9.30.tgz
+137 silly fetchAndShaCheck shasum edda875ec9aad1f29cf1f56d6e82fbab2b0df556
+138 verbose addTmpTarball C:\Users\ITLUSER\AppData\Local\Temp\npm-6720-d7ee5a58\registry.npmjs.org\bluebird\-\bluebird-2.9.30.tgz not in flight; adding
+139 verbose addTmpTarball already have metadata; skipping unpack for bluebird@2.9.30
+140 silly cache afterAdd bluebird@2.9.30
+141 verbose afterAdd C:\Users\ITLUSER\AppData\Roaming\npm-cache\bluebird\2.9.30\package\package.json not in flight; writing
+142 verbose afterAdd C:\Users\ITLUSER\AppData\Roaming\npm-cache\bluebird\2.9.30\package\package.json written
+143 silly install resolved [ { name: 'bluebird',
+143 silly install resolved     description: 'Full featured Promises/A+ implementation with exceptionally good performance',
+143 silly install resolved     version: '2.9.30',
+143 silly install resolved     keywords:
+143 silly install resolved      [ 'promise',
+143 silly install resolved        'performance',
+143 silly install resolved        'promises',
+143 silly install resolved        'promises-a',
+143 silly install resolved        'promises-aplus',
+143 silly install resolved        'async',
+143 silly install resolved        'await',
+143 silly install resolved        'deferred',
+143 silly install resolved        'deferreds',
+143 silly install resolved        'future',
+143 silly install resolved        'flow control',
+143 silly install resolved        'dsl',
+143 silly install resolved        'fluent interface' ],
+143 silly install resolved     scripts:
+143 silly install resolved      { lint: 'node scripts/jshint.js',
+143 silly install resolved        test: 'node tools/test.js',
+143 silly install resolved        istanbul: 'istanbul',
+143 silly install resolved        prepublish: 'node tools/build.js --no-debug --main --zalgo --browser --minify' },
+143 silly install resolved     homepage: 'https://github.com/petkaantonov/bluebird',
+143 silly install resolved     repository:
+143 silly install resolved      { type: 'git',
+143 silly install resolved        url: 'git://github.com/petkaantonov/bluebird.git' },
+143 silly install resolved     bugs: { url: 'http://github.com/petkaantonov/bluebird/issues' },
+143 silly install resolved     license: 'MIT',
+143 silly install resolved     author:
+143 silly install resolved      { name: 'Petka Antonov',
+143 silly install resolved        email: 'petka_antonov@hotmail.com',
+143 silly install resolved        url: 'http://github.com/petkaantonov/' },
+143 silly install resolved     devDependencies:
+143 silly install resolved      { acorn: '~0.6.0',
+143 silly install resolved        baconjs: '^0.7.43',
+143 silly install resolved        bluebird: '^2.9.2',
+143 silly install resolved        'body-parser': '^1.10.2',
+143 silly install resolved        browserify: '^8.1.1',
+143 silly install resolved        'cli-table': '~0.3.1',
+143 silly install resolved        co: '^4.2.0',
+143 silly install resolved        'cross-spawn': '^0.2.3',
+143 silly install resolved        glob: '^4.3.2',
+143 silly install resolved        'grunt-saucelabs': '~8.4.1',
+143 silly install resolved        highland: '^2.3.0',
+143 silly install resolved        istanbul: '^0.3.5',
+143 silly install resolved        jshint: '^2.6.0',
+143 silly install resolved        'jshint-stylish': '~0.2.0',
+143 silly install resolved        mkdirp: '~0.5.0',
+143 silly install resolved        mocha: '~2.1',
+143 silly install resolved        open: '~0.0.5',
+143 silly install resolved        optimist: '~0.6.1',
+143 silly install resolved        rimraf: '~2.2.6',
+143 silly install resolved        rx: '^2.3.25',
+143 silly install resolved        'serve-static': '^1.7.1',
+143 silly install resolved        sinon: '~1.7.3',
+143 silly install resolved        'uglify-js': '~2.4.16',
+143 silly install resolved        kefir: '^2.4.1' },
+143 silly install resolved     main: './js/main/bluebird.js',
+143 silly install resolved     browser: './js/browser/bluebird.js',
+143 silly install resolved     files: [ 'js/browser', 'js/main', 'js/zalgo', 'LICENSE', 'zalgo.js' ],
+143 silly install resolved     gitHead: '808ad89efab27c6eb3d63dcb4198c5732ab51c29',
+143 silly install resolved     _id: 'bluebird@2.9.30',
+143 silly install resolved     _shasum: 'edda875ec9aad1f29cf1f56d6e82fbab2b0df556',
+143 silly install resolved     _from: 'bluebird@>=2.9.26 <3.0.0',
+143 silly install resolved     _npmVersion: '2.11.1',
+143 silly install resolved     _nodeVersion: '2.3.0',
+143 silly install resolved     _npmUser: { name: 'esailija', email: 'petka_antonov@hotmail.com' },
+143 silly install resolved     maintainers: [ [Object] ],
+143 silly install resolved     dist:
+143 silly install resolved      { shasum: 'edda875ec9aad1f29cf1f56d6e82fbab2b0df556',
+143 silly install resolved        tarball: 'http://registry.npmjs.org/bluebird/-/bluebird-2.9.30.tgz' },
+143 silly install resolved     directories: {},
+143 silly install resolved     _resolved: 'https://registry.npmjs.org/bluebird/-/bluebird-2.9.30.tgz' } ]
+144 info install bluebird@2.9.30 into D:\RAGU\GitHub\Node\node_modules\consolidate
+145 info installOne bluebird@2.9.30
+146 verbose installOne of bluebird to D:\RAGU\GitHub\Node\node_modules\consolidate not in flight; installing
+147 verbose lock using C:\Users\ITLUSER\AppData\Roaming\npm-cache\_locks\bluebird-4e48c76c6458b9cd.lock for D:\RAGU\GitHub\Node\node_modules\consolidate\node_modules\bluebird
+148 silly install write writing bluebird 2.9.30 to D:\RAGU\GitHub\Node\node_modules\consolidate\node_modules\bluebird
+149 verbose unbuild node_modules\consolidate\node_modules\bluebird
+150 silly gentlyRm D:\RAGU\GitHub\Node\node_modules\consolidate\node_modules\bluebird is being purged from base D:\RAGU\GitHub\Node
+151 verbose gentlyRm don't care about contents; nuking D:\RAGU\GitHub\Node\node_modules\consolidate\node_modules\bluebird
+152 verbose tar unpack C:\Users\ITLUSER\AppData\Roaming\npm-cache\bluebird\2.9.30\package.tgz
+153 verbose tar unpacking to D:\RAGU\GitHub\Node\node_modules\consolidate\node_modules\bluebird
+154 silly gentlyRm D:\RAGU\GitHub\Node\node_modules\consolidate\node_modules\bluebird is being purged
+155 verbose gentlyRm don't care about contents; nuking D:\RAGU\GitHub\Node\node_modules\consolidate\node_modules\bluebird
+156 silly gunzTarPerm modes [ '777', '666' ]
+157 silly gunzTarPerm extractEntry package.json
+158 silly gunzTarPerm modified mode [ 'package.json', 436, 438 ]
+159 silly gunzTarPerm extractEntry README.md
+160 silly gunzTarPerm modified mode [ 'README.md', 436, 438 ]
+161 silly gunzTarPerm extractEntry LICENSE
+162 silly gunzTarPerm modified mode [ 'LICENSE', 436, 438 ]
+163 silly gunzTarPerm extractEntry changelog.md
+164 silly gunzTarPerm modified mode [ 'changelog.md', 436, 438 ]
+165 silly gunzTarPerm extractEntry js/browser/bluebird.js
+166 silly gunzTarPerm modified mode [ 'js/browser/bluebird.js', 436, 438 ]
+167 silly gunzTarPerm extractEntry js/browser/bluebird.min.js
+168 silly gunzTarPerm modified mode [ 'js/browser/bluebird.min.js', 436, 438 ]
+169 silly gunzTarPerm extractEntry js/main/any.js
+170 silly gunzTarPerm modified mode [ 'js/main/any.js', 436, 438 ]
+171 silly gunzTarPerm extractEntry js/main/finally.js
+172 silly gunzTarPerm modified mode [ 'js/main/finally.js', 436, 438 ]
+173 silly gunzTarPerm extractEntry js/main/generators.js
+174 silly gunzTarPerm modified mode [ 'js/main/generators.js', 436, 438 ]
+175 silly gunzTarPerm extractEntry js/main/join.js
+176 silly gunzTarPerm modified mode [ 'js/main/join.js', 436, 438 ]
+177 silly gunzTarPerm extractEntry js/main/filter.js
+178 silly gunzTarPerm modified mode [ 'js/main/filter.js', 436, 438 ]
+179 silly gunzTarPerm extractEntry js/main/method.js
+180 silly gunzTarPerm modified mode [ 'js/main/method.js', 436, 438 ]
+181 silly gunzTarPerm extractEntry js/main/nodeify.js
+182 silly gunzTarPerm modified mode [ 'js/main/nodeify.js', 436, 438 ]
+183 silly gunzTarPerm extractEntry js/main/progress.js
+184 silly gunzTarPerm modified mode [ 'js/main/progress.js', 436, 438 ]
+185 silly gunzTarPerm extractEntry js/main/promise.js
+186 silly gunzTarPerm modified mode [ 'js/main/promise.js', 436, 438 ]
+187 silly gunzTarPerm extractEntry js/main/promise_array.js
+188 silly gunzTarPerm modified mode [ 'js/main/promise_array.js', 436, 438 ]
+189 silly gunzTarPerm extractEntry js/main/es5.js
+190 silly gunzTarPerm modified mode [ 'js/main/es5.js', 436, 438 ]
+191 silly gunzTarPerm extractEntry js/main/promise_resolver.js
+192 silly gunzTarPerm modified mode [ 'js/main/promise_resolver.js', 436, 438 ]
+193 silly gunzTarPerm extractEntry js/main/errors.js
+194 silly gunzTarPerm modified mode [ 'js/main/errors.js', 436, 438 ]
+195 silly gunzTarPerm extractEntry js/main/promisify.js
+196 silly gunzTarPerm modified mode [ 'js/main/promisify.js', 436, 438 ]
+197 silly gunzTarPerm extractEntry js/main/each.js
+198 silly gunzTarPerm modified mode [ 'js/main/each.js', 436, 438 ]
+199 silly gunzTarPerm extractEntry js/main/props.js
+200 silly gunzTarPerm modified mode [ 'js/main/props.js', 436, 438 ]
+201 silly gunzTarPerm extractEntry js/main/direct_resolve.js
+202 silly gunzTarPerm modified mode [ 'js/main/direct_resolve.js', 436, 438 ]
+203 silly gunzTarPerm extractEntry js/main/queue.js
+204 silly gunzTarPerm modified mode [ 'js/main/queue.js', 436, 438 ]
+205 silly gunzTarPerm extractEntry js/main/debuggability.js
+206 silly gunzTarPerm modified mode [ 'js/main/debuggability.js', 436, 438 ]
+207 silly gunzTarPerm extractEntry js/main/race.js
+208 silly gunzTarPerm modified mode [ 'js/main/race.js', 436, 438 ]
+209 silly gunzTarPerm extractEntry js/main/context.js
+210 silly gunzTarPerm modified mode [ 'js/main/context.js', 436, 438 ]
+211 silly gunzTarPerm extractEntry js/main/reduce.js
+212 silly gunzTarPerm modified mode [ 'js/main/reduce.js', 436, 438 ]
+213 silly gunzTarPerm extractEntry js/main/catch_filter.js
+214 silly gunzTarPerm modified mode [ 'js/main/catch_filter.js', 436, 438 ]
+215 silly gunzTarPerm extractEntry js/main/schedule.js
+216 silly gunzTarPerm modified mode [ 'js/main/schedule.js', 436, 438 ]
+217 silly gunzTarPerm extractEntry js/main/captured_trace.js
+218 silly gunzTarPerm modified mode [ 'js/main/captured_trace.js', 436, 438 ]
+219 silly gunzTarPerm extractEntry js/main/settle.js
+220 silly gunzTarPerm modified mode [ 'js/main/settle.js', 436, 438 ]
+221 silly gunzTarPerm extractEntry js/main/cancel.js
+222 silly gunzTarPerm modified mode [ 'js/main/cancel.js', 436, 438 ]
+223 silly gunzTarPerm extractEntry js/main/some.js
+224 silly gunzTarPerm modified mode [ 'js/main/some.js', 436, 438 ]
+225 silly gunzTarPerm extractEntry js/main/call_get.js
+226 silly gunzTarPerm modified mode [ 'js/main/call_get.js', 436, 438 ]
+227 silly gunzTarPerm extractEntry js/main/synchronous_inspection.js
+228 silly gunzTarPerm modified mode [ 'js/main/synchronous_inspection.js', 436, 438 ]
+229 silly gunzTarPerm extractEntry js/main/bluebird.js
+230 silly gunzTarPerm modified mode [ 'js/main/bluebird.js', 436, 438 ]
+231 silly gunzTarPerm extractEntry js/main/thenables.js
+232 silly gunzTarPerm modified mode [ 'js/main/thenables.js', 436, 438 ]
+233 silly gunzTarPerm extractEntry js/main/bind.js
+234 silly gunzTarPerm modified mode [ 'js/main/bind.js', 436, 438 ]
+235 silly gunzTarPerm extractEntry js/main/timers.js
+236 silly gunzTarPerm modified mode [ 'js/main/timers.js', 436, 438 ]
+237 silly gunzTarPerm extractEntry js/main/async.js
+238 silly gunzTarPerm modified mode [ 'js/main/async.js', 436, 438 ]
+239 silly gunzTarPerm extractEntry js/main/using.js
+240 silly gunzTarPerm modified mode [ 'js/main/using.js', 436, 438 ]
+241 silly gunzTarPerm extractEntry js/main/assert.js
+242 silly gunzTarPerm modified mode [ 'js/main/assert.js', 436, 438 ]
+243 silly gunzTarPerm extractEntry js/main/util.js
+244 silly gunzTarPerm modified mode [ 'js/main/util.js', 436, 438 ]
+245 silly gunzTarPerm extractEntry js/main/map.js
+246 silly gunzTarPerm modified mode [ 'js/main/map.js', 436, 438 ]
+247 verbose write writing to D:\RAGU\GitHub\Node\node_modules\consolidate\node_modules\bluebird\package.json
+248 info preinstall bluebird@2.9.30
+249 verbose readDependencies loading dependencies from D:\RAGU\GitHub\Node\node_modules\consolidate\node_modules\bluebird\package.json
+250 verbose readDependencies loading dependencies from D:\RAGU\GitHub\Node\node_modules\consolidate\node_modules\bluebird\package.json
+251 silly install resolved []
+252 verbose about to build D:\RAGU\GitHub\Node\node_modules\consolidate\node_modules\bluebird
+253 info build D:\RAGU\GitHub\Node\node_modules\consolidate\node_modules\bluebird
+254 info linkStuff bluebird@2.9.30
+255 silly linkStuff bluebird@2.9.30 has D:\RAGU\GitHub\Node\node_modules\consolidate\node_modules as its parent node_modules
+256 verbose linkBins bluebird@2.9.30
+257 verbose linkMans bluebird@2.9.30
+258 verbose rebuildBundles bluebird@2.9.30
+259 info install bluebird@2.9.30
+260 info postinstall bluebird@2.9.30
+261 verbose unlock done using C:\Users\ITLUSER\AppData\Roaming\npm-cache\_locks\bluebird-4e48c76c6458b9cd.lock for D:\RAGU\GitHub\Node\node_modules\consolidate\node_modules\bluebird
+262 verbose about to build D:\RAGU\GitHub\Node\node_modules\consolidate
+263 info build D:\RAGU\GitHub\Node\node_modules\consolidate
+264 info linkStuff consolidate@0.13.1
+265 silly linkStuff consolidate@0.13.1 has D:\RAGU\GitHub\Node\node_modules as its parent node_modules
+266 verbose linkBins consolidate@0.13.1
+267 verbose linkMans consolidate@0.13.1
+268 verbose rebuildBundles consolidate@0.13.1
+269 verbose rebuildBundles [ 'bluebird' ]
+270 info install consolidate@0.13.1
+271 info postinstall consolidate@0.13.1
+272 verbose unlock done using C:\Users\ITLUSER\AppData\Roaming\npm-cache\_locks\consolidate-5501ca7741e3b645.lock for D:\RAGU\GitHub\Node\node_modules\consolidate
+273 info build D:\RAGU\GitHub\Node
+274 info linkStuff raghu@0.0.1
+275 silly linkStuff raghu@0.0.1 has D:\RAGU\GitHub as its parent node_modules
+276 verbose linkBins raghu@0.0.1
+277 verbose linkMans raghu@0.0.1
+278 verbose rebuildBundles raghu@0.0.1
+279 verbose rebuildBundles [ '.bin',
+279 verbose rebuildBundles   'consolidate',
+279 verbose rebuildBundles   'dustjs-helpers',
+279 verbose rebuildBundles   'dustjs-linkedin',
+279 verbose rebuildBundles   'express',
+279 verbose rebuildBundles   'mysql',
+279 verbose rebuildBundles   'q' ]
+280 info install raghu@0.0.1
+281 info postinstall raghu@0.0.1
+282 info prepublish raghu@0.0.1
+283 verbose validateInstall loading D:\RAGU\GitHub\Node\package.json for validation
+284 verbose stack Error: The package dustjs-linkedin does not satisfy its siblings' peerDependencies requirements!
+284 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\install.js:125:32
+284 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\install.js:267:7
+284 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:138:5
+284 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:251:14
+284 verbose stack     at cb (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:47:24)
+284 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:251:14
+284 verbose stack     at cb (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:47:24)
+284 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:251:14
+284 verbose stack     at cb (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:47:24)
+284 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:251:14
+285 verbose cwd D:\RAGU\GitHub\Node
+286 error Windows_NT 6.1.7601
+287 error argv "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+288 error node v0.12.3
+289 error npm  v2.9.1
+290 error code EPEERINVALID
+291 error peerinvalid The package dustjs-linkedin does not satisfy its siblings' peerDependencies requirements!
+291 error peerinvalid Peer dustjs-helpers@1.7.1 wants dustjs-linkedin@2.7 - 2.8
+292 verbose exit [ 1, true ]
